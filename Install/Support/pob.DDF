@@ -1,0 +1,50 @@
+.OPTION EXPLICIT
+.Set Cabinet=off
+.Set Compress=off
+.Set MaxDiskSize=CDROM
+.Set ReservePerCabinetSize=6144
+.Set DiskDirectoryTemplate=".."
+.Set CompressionType=MSZIP
+.Set CompressionLevel=7
+.Set CompressionMemory=21
+.Set CabinetNameTemplate="POB.CAB"
+"Setup.Lst"
+"setup.exe"
+.Set Cabinet=on
+.Set Compress=on
+"POB.exe"
+"msvbvm60.dll"
+"oleaut32.dll"
+"olepro32.dll"
+"asycfilt.dll"
+"stdole2.tlb"
+"COMCAT.DLL"
+"scrrun.dll"
+"msvcrt.dll"
+"msado25.tlb"
+"msscript.ocx"
+"msstdfmt.dll"
+"msadomd.dll"
+"MSBIND.DLL"
+"msde.dll"
+"msador15.dll"
+"odbcconf.dll"
+"CDO.DLL"
+"CDOEX.DLL"
+"EXCEL.EXE"
+"MSCOMCTL.OCX"
+"comdlg32.ocx"
+"COMCTL32.OCX"
+"MSFLXGRD.OCX"
+"tabctl32.ocx"
+"COMCT232.OCX"
+"MSCOMCT2.OCX"
+"MSCOMM32.OCX"
+"COMCT332.OCX"
+"MSINET.OCX"
+"mschrt20.ocx"
+"MSWINSCK.OCX"
+"agentctl.dll"
+"SETUP1.EXE"
+"VB6STKIT.DLL"
+"ST6UNST.EXE"
